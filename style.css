@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans:ital,wght@0,400;0,500;0,700;1,300&family=Rubik:wght@300;400&display=swap');
+
+html{
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+}
+
+body{
+    background:black;
+    color: white;
+    font-family: 'Open Sans' sans-serif;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: grey;
+    transition: 0.3s all;
+}
+
+ul{
+    padding-right: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 40px;
+    font-weight: bold;
+    font-family: 'Rubik';
+}
+
+#btn-test-drive{
+    border: 2px solid #222222;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#btn-test-drive:hover{
+    background-color: white;
+    color:black;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    padding-left: 100px;
+    font-family: 'Rubik';
+}
+
+
+main{
+    display: flex;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.inicio{
+    padding-top: 100px;
+    padding-left: 100px;
+    margin-right: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-weight: 200;
+}
+
+h2{
+    font-size: 60px;
+    line-height: 10px;
+    font-family: 'Rubik';
+    font-weight: 800;
+}
+
+h3{
+    margin: 200px;
+    font-size: 15px;
+    font-family: 'Rubik';
+    border: 2px solid white;
+    width: 150px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 20px;
+}
+
+h3:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+span{
+    font-size: 100px;
+    color: rgb(73, 81, 90);
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Noto Sans';
+}
+
+img{
+    width: 600px;
+    height: 600px;
+}
+
+
+/* LISTA DE CARROS */
+
+.car01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5,5,5,0.9);
+    letter-spacing: 3px;
+    padding: 50px;
+}
+
+.car01 h1{
+    font-size: 60px;
+    font-family: 'Rubik';
+    margin: 0;
+    padding-top: 100px;
+}
+
+.car01 li{
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Rubik';
+}
+
+.car01 ul{
+    margin: 0;
+    padding: 0;
+}
+
+#carro01{
+    cursor: pointer;
+}
+
+
+.car02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.car02 h1{
+    font-size: 60px;
+    font-family: 'Rubik';
+    margin: 0;
+    padding-top: 100px;
+}
+
+.car02 li{
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Rubik';
+}
+
+.car02 ul{
+    margin: 0;
+    padding: 0;
+}
+
+#carro02 {
+    width: 650px;
+    height: 650px;
+    cursor: pointer;
+}
+
+
+.car03{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5,5,5,0.9);
+    letter-spacing: 3px;
+}
+
+.car03 h1{
+    font-size: 60px;
+    font-family: 'Rubik';
+    margin: 0;
+    padding-top: 100px;
+}
+
+.car03 li{
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Rubik';
+}
+
+.car03 ul{
+    margin: 0;
+    padding: 0;
+}
+
+#carro03{
+    cursor: pointer;    
+}
+
+
+nav{
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer-ul01 li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.footer-ul01 {
+    padding: 0;
+}
+
+.footer-div01{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 10px;
+}
+
+.footer-div01 h1{
+    font-size: 30px;
+    font-family: 'Rubik';
+}
+
+.tittle-footer{
+    flex-direction: column;
+    line-height: 10px;
+    padding-left: 100px;
+    font-family: 'Rubik';
+}
+
+
+/* ---------------- */
+
+.footer-ul02 li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-ul02 {
+    padding: 0;
+}
+
+.footer-div02{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    font-size: 10px;
+}
+
+.footer-div02 h1{
+    font-size: 30px;
+    font-family: 'Rubik';
+}
+
+/* ---------------- */
+
+.footer-div03{
+    background-color: #222222;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    font-size: 10px;
+    font-family: 'Rubik';
+}
+
+.footer-div03 h1{
+    font-size: 30px;
+    margin: 0;
+    padding-top: 30px;
+    font-family: 'Rubik';
+}
+
+form{
+    flex-direction: column;
+    padding: 70px;
+    width: 70%;
+}
+
+input{
+    margin-top: 10px;
+    height: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 95%;
+    background-color:white;
+    color:black;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+/* ---------------- */
+
+.footer-final{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 10px;
+    color: gray;
+}
+
+.footer-final ul{
+    display: flex;
+}
+
+.footer-final li{
+    cursor: pointer;
+}
+
+.footer-ul03{
+    display: flex;
+}
+
+.footer-imagens ul{
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-imagens li{
+    margin: 22px 0px;
+    padding: 10px;
+}
+
+.footer-imagens img{
+    cursor: pointer;
+    width: 20px;
+    height: auto;
+}
+
+#fb_icon:hover{
+    background-color: rgb(37, 37, 165);
+    border-radius: 10px;
+}
+
+#inst_icon:hover{
+    background-color: rgb(180, 40, 64);
+    border-radius: 10px;
+}
+
+#tt_icon:hover{
+    background-color: rgb(0, 132, 255);
+    border-radius: 10px;
+}
+
+#wp_icon:hover{
+    background-color: green;
+    border-radius: 10px;
+}
+
+.direitos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6px;
+    font-family: 'Rubik';
+    color: gray;
+}
